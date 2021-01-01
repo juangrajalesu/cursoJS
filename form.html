@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="./validacion.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Formulario para hacer validación con JavaScript</h1>
+    </header>
+    <form action="./entrada.html">
+        <div id="uno">
+            <p id="inicio">Correo electrónico:</p>
+            <input type="email" onchange="validarCorreo(this)">
+        </div>
+
+        <div id="uno">
+            
+            <p>Contraseña:</p>
+            
+            <p id="info">La contraseña debe de tener al menos una mayuscula, un numero y un caracter especial (", *, _ ó ¿) 
+                Además debe de tener mas de 6 caracteres</p>
+            <input type="password" onchange="validarContraseña(this)">
+        </div>
+
+        <div id="uno">
+            <p>Nombre completo:</p>
+            <input type="text" onchange="validarNombre(this)">
+        </div>
+
+
+        <div id="uno">
+            <p>Edad:</p>
+            <input type="text" onchange="validarEdad(this)">
+        </div>
+
+
+        <div id="uno">
+            <div id="final">
+                <p>Sexo:</p>
+                <select onchange="validarSexo(this)">
+                    <option value="Elegir">Elegir</option>
+                    <option value="Hombre">Hombre</option>
+                    <option value="Mujer">Mujer</option>
+                    <option value="NN">Prefiero no decir</option>
+                </select>
+            </div>
+        </div>
+
+
+        <input type="button" value="Enviar" onclick="validacionTotal()" id="final" class="btn">
+        </tr>
+    </form>
+
+    <footer>
+        <p>Juan Manuel Grajales-Trabajo del curso visto para Analisis II</p>
+    </footer>
+
+    
+</body>
+
+</html>

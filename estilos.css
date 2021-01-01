@@ -1,0 +1,97 @@
+body{
+    background: linear-gradient(to bottom, grey, white);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 64px 0 0 0;
+
+    font-size: 13px;
+    line-height: 1.8;
+    color: #222;
+    
+    font-weight: 400;
+
+    
+}
+
+
+header{
+    text-align: center;
+    font-size: 20px;
+}
+footer{
+    text-align: center;
+    font-size: 15px;
+}
+
+form{
+    width: auto;
+    height: 30%;
+    
+    margin: 30px 20% 20px 20%;
+    
+
+    border: 1px solid black ;
+    border-radius: 5px;
+
+    text-align: center;
+    background-color: white;
+
+    
+   
+}
+
+#uno{
+    width: 100%;
+    margin: 0 auto;
+    
+    align-items: center!important;
+}
+
+input{
+    left: 10px;
+    box-sizing: border-box;
+    width : 80%;
+    margin: 0;
+
+    padding: 1.5%;
+
+    text-size-adjust: large;
+    border:none;
+    border-bottom: 1px solid #999;
+
+    text-align: center; 
+   
+    
+    
+}
+
+p{
+    margin: 10px;
+    margin-right: 50px;
+    font-size: large;
+}
+
+#final{
+    margin-bottom: 20px;
+    padding: 2%;
+    border-radius: 5px;
+    
+}
+#inicio{
+    margin-top: 30px;
+}
+select{
+    width: 80%;
+    padding: .375rem .75rem;
+
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    text-align-last:center;
+}
+
+
+
+#info{
+    color: rgb(39, 125, 253);
+    font-size: small;
+}
