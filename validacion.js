@@ -53,7 +53,7 @@ function validarNombre(obj){
 
 function validarEdad(obj){
     let a = obj.value
-    let vedad=/[0-1]{1}[0-9]{0,2}/;
+    let vedad=/^[1-9]{1}[0-9]{0,2}/;
     if(a>0 && a<150 && vedad.test(a)){
         obj.style.borderColor = "green"
         validacionesCorrectas.edad = true
